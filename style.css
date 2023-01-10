@@ -54,10 +54,14 @@ body, input, button{
     border-radius: .6rem;
 }
 
-.tilte{
+.title{
     font-size: 3.2rem;
     line-height: 4rem;
     color: var(--tt-heading);
+}
+
+form{
+    width: 30rem;
 }
 
 form h1{
