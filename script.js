@@ -4,11 +4,13 @@ const form = document.querySelector('form')
 const inputWeight = document.querySelector('#weight')
 const inputHeight = document.querySelector('#height')
 
-
+// Object Literals
 const Modal = {
     wrapper: document.querySelector('.modal-wrapper'),
     message: document.querySelector('.modal .title span'),
     buttonClose: document.querySelector('.modal button.close'),
+
+    // função shorthand
 
     open(){
         Modal.wrapper.classList.add('open')
